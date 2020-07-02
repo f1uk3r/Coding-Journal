@@ -6,7 +6,7 @@ In the meanwhile I decided to try to make it work it in Amplify. I don't know ex
 
 [Official docs for Amplify](https://docs.amplify.aws/cli/start/install)
 
-##First try on Amplify
+## First try on Amplify
 
 Following [this article](https://kodius.com/blog/nuxt-ssr-on-amplify/#setting-the-stage) to deploy nuxt app
 
