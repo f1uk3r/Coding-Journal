@@ -16,9 +16,9 @@ First create a nuxt app
 
 Configuring and Installing amplify, [watch this video](https://www.youtube.com/watch?v=fWbM5DLh25U) for reference
 
-``` sudo npm install -g @aws-amplify/cli
+` sudo npm install -g @aws-amplify/cli
 amplify configure
-amplify init ```
+amplify init `
 
 sudo is used here because without appropriate permission that command will result in an error
 
