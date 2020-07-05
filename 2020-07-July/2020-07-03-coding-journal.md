@@ -40,6 +40,8 @@ Yeah they addressed this error in the article, so we should be fine.
 
 `eb logs` for logs
 
+`eb logs -z` to download all logs zip file
+
 Read the fucking logs. So even if they addressed the issue in the article there was an another problem in the requirements.txt in my case. I have a packge `pkg-resource==0` and there is no package with this name. I have to do `pip uninstall pkg-resource==0.0.0`. [Resource](https://stackoverflow.com/questions/40670602/could-not-find-a-version-that-satisfies-the-requirement-pkg-resources-0-0-0)
 
 In the article we are provided with 2 ways to setup our wsgi path, I will be doing the 2nd way because I don't know where wsgi path is in our Elastic Beanstalk environment
