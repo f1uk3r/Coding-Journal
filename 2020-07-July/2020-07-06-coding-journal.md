@@ -51,15 +51,15 @@ Vue/Nuxt `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
 
 ***
 
-new environment for django app > edhusk-backend
+new environment for django app > api-django
 
 ***
 
 Backend from scratch
 
-`virtualenv -p /usr/bin/python edhusk-backend`
+`virtualenv -p /usr/bin/python api-django`
 
-`source /home/f1uk3r/Coding/virtual-envs/edhusk-backend/bin/activate`
+`source /home/f1uk3r/Coding/virtual-envs/api-django/bin/activate`
 
 `python -m pip install Django`
 
